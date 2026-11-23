@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080d1a">
+
+<meta name="description" content="Explore the professional certifications and technical training achievements of Auwal Mohammed Bello in cybersecurity, artificial intelligence, networking and software development.">
+
+<title>Professional Certificates | Auwal Mohammed Bello</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+
+
+
+
+
+
+
+<!-- AMB ROTATING ENERGY LOGO -->
+<a href="#home" class="amb-logo" aria-label="AMB Home">
+    <span class="amb-ring"></span>
+    <span class="amb-text">AMB</span>
+</a>
+
+
+
+
+<style>
+
+.cert-page {
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+.cert-header {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.cert-header h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 15px;
+}
+
+.cert-header p {
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.8;
+    opacity: .8;
+}
+
+.cert-back {
+    display: inline-block;
+    margin-bottom: 35px;
+    text-decoration: none;
+    color: #00b875;
+}
+
+.cert-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 35px;
+}
+
+.cert-filters button {
+    padding: 10px 18px;
+    border: 1px solid #00b875;
+    border-radius: 25px;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.cert-filters button.active,
+.cert-filters button:hover {
+    background: #00b875;
+    color: #fff;
+}
+
+.cert-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 22px;
+}
+
+.cert-item {
+    padding: 25px;
+    border: 1px solid rgba(128,128,128,.2);
+    border-radius: 16px;
+    background: rgba(128,128,128,.06);
+    transition: .3s;
+}
+
+.cert-item:hover {
+    transform: translateY(-6px);
+    border-color: #00b875;
+    box-shadow: 0 10px 30px rgba(0,184,117,.08);
+}
+
+.cert-icon {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.cert-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cert-item p {
+    line-height: 1.6;
+    opacity: .8;
+    font-size: 14px;
+}
+
+.cert-year {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #00b875;
+    font-weight: bold;
+}
+
+.cert-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.cert-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: #00b875;
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #00b875;
+    transition: .3s;
+}
+
+.cert-btn:hover {
+    background: transparent;
+    color: #00b875 !important;
+}
+
+.cert-coming {
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 8px;
+    background: rgba(128,128,128,.2);
+    color: inherit;
+    font-size: 13px;
+}
+
+.cert-footer {
+    text-align: center;
+    padding: 35px 15px;
+    opacity: .75;
+}
+
+.cert-item.hidden {
+    display: none;
+}
+
+@media(max-width:600px) {
+
+    .cert-page {
+        padding: 35px 15px;
+    }
+
+    .cert-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .cert-item {
+        padding: 22px;
+    }
+
+    .cert-actions a {
+        text-align: center;
+        flex: 1;
+    }
+
+}
+
+
+
+
+
+
+/* =========================================
+   AUWALMB — PREMIUM CERTIFICATE GALLERY
+   Midnight Blue + Royal Purple + Silver
+========================================= */
+
+.cert-page {
+    max-width: 1250px;
+    padding: 55px 20px;
+}
+
+.cert-header h1 {
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    background: linear-gradient(
+        110deg,
+        #F8FAFC,
+        #A855F7,
+        #38BDF8
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cert-header p {
+    color: #AEBBD0;
+    font-size: 1rem;
+}
+
+.cert-back {
+    color: #38BDF8;
+    font-weight: 700;
+    transition: .3s ease;
+}
+
+.cert-back:hover {
+    color: #A855F7;
+    transform: translateX(-5px);
+}
+
+/* FILTER BUTTONS */
+
+.cert-filters button {
+    padding: 11px 20px;
+    background: #14213D;
+    color: #CBD5E1;
+    border: 1px solid rgba(99,102,241,.3);
+    border-radius: 30px;
+    font-weight: 700;
+    transition: .3s ease;
+}
+
+.cert-filters button.active,
+.cert-filters button:hover {
+    background: linear-gradient(
+        110deg,
+        #6366F1,
+        #A855F7
+    );
+    color: #FFFFFF;
+    border-color: #A855F7;
+    box-shadow: 0 5px 20px rgba(168,85,247,.25);
+}
+
+/* CERTIFICATE CARDS */
+
+.cert-gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.cert-item {
+    position: relative;
+    overflow: hidden;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+
+    background: linear-gradient(
+        145deg,
+        #14213D,
+        #101A2F
+    );
+
+    border: 1px solid rgba(99,102,241,.25);
+    border-radius: 20px;
+
+    transition: transform .35s ease,
+                border-color .35s ease,
+                box-shadow .35s ease;
+}
+
+.cert-item::before {
+    content: "";
+    position: absolute;
+    top: -65px;
+    right: -60px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: rgba(168,85,247,.16);
+    filter: blur(45px);
+    pointer-events: none;
+}
+
+.cert-item:hover {
+    transform: translateY(-8px);
+    border-color: #A855F7;
+    box-shadow: 0 18px 40px rgba(0,0,0,.3),
+                0 0 25px rgba(168,85,247,.12);
+}
+
+.cert-icon {
+    position: relative;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(99,102,241,.15);
+    border: 1px solid rgba(168,85,247,.3);
+    border-radius: 17px;
+
+    font-size: 30px;
+}
+
+.cert-year {
+    position: relative;
+    z-index: 1;
+    color: #38BDF8;
+    font-size: .82rem;
+    margin-top: 18px;
+}
+
+.cert-item h3 {
+    position: relative;
+    z-index: 1;
+    color: #F8FAFC;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+.cert-item p {
+    position: relative;
+    z-index: 1;
+    color: #AEBBD0;
+    font-size: .88rem;
+    line-height: 1.8;
+}
+
+/* CERTIFICATE ACTIONS */
+
+.cert-actions {
+    position: relative;
+    z-index: 2;
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+.cert-btn {
+    text-align: center;
+    background: linear-gradient(
+        110deg,
+        #6366F1,
+        #A855F7
+    );
+    border: 1px solid transparent;
+    border-radius: 9px;
+    color: #FFFFFF !important;
+    font-weight: 750;
+    transition: .3s ease;
+}
+
+.cert-btn:hover {
+    background: transparent;
+    border-color: #A855F7;
+    color: #A855F7 !important;
+    transform: translateY(-3px);
+}
+
+.cert-coming {
+    background: rgba(168,85,247,.12);
+    border: 1px solid rgba(168,85,247,.3);
+    color: #C4B5FD;
+    border-radius: 9px;
+}
+
+/* FOOTER */
+
+.cert-footer {
+    border-top: 1px solid rgba(99,102,241,.2);
+    color: #94A3B8;
+}
+
+/* TABLET */
+
+@media(max-width: 900px) {
+    .cert-gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* MOBILE */
+
+@media(max-width: 600px) {
+    .cert-page {
+        padding: 35px 16px;
+    }
+
+    .cert-header {
+        margin-bottom: 30px;
+    }
+
+    .cert-header h1 {
+        font-size: 2rem;
+    }
+
+    .cert-gallery {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .cert-item {
+        padding: 24px 20px;
+    }
+
+    .cert-filters {
+        gap: 9px;
+    }
+
+    .cert-filters button {
+        padding: 10px 14px;
+        font-size: .8rem;
+    }
+
+    .cert-actions {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .cert-btn {
+        padding: 11px 8px;
+        font-size: .78rem;
+    }
+}
+
+@media(prefers-reduced-motion: reduce) {
+    .cert-item,
+    .cert-btn,
+    .cert-back {
+        transition: none;
+    }
+
+    .cert-item:hover {
+        transform: none;
+    }
+}
+
+
+
+
+
+
+
+/* PREMIUM CERTIFICATES TIMELINE DESIGN */
+
+.cert-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    max-width: 950px;
+    margin: 50px auto;
+    padding-left: 45px;
+}
+
+/* Vertical Timeline Line */
+.cert-gallery::before {
+    content: "";
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    bottom: 10px;
+    width: 3px;
+    background: linear-gradient(
+        to bottom,
+        #6366F1,
+        #A855F7,
+        #38BDF8,
+        transparent
+    );
+    border-radius: 10px;
+}
+
+/* Certificate Card */
+.cert-item {
+    position: relative;
+    width: 100%;
+    padding: 28px;
+    border-radius: 18px;
+    background: linear-gradient(
+        145deg,
+        #14213D,
+        #101A2F
+    );
+    border: 1px solid #263653;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: all 0.35s ease;
+}
+
+/* Timeline Dot */
+.cert-item::before {
+    content: "";
+    position: absolute;
+    left: -41px;
+    top: 35px;
+    width: 15px;
+    height: 15px;
+    background: #A855F7;
+    border: 3px solid #080D1A;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(168,85,247,0.8);
+    z-index: 2;
+}
+
+/* Timeline Connector */
+.cert-item::after {
+    content: "";
+    position: absolute;
+    left: -26px;
+    top: 42px;
+    width: 26px;
+    height: 2px;
+    background: #6366F1;
+}
+
+/* Hover Effect */
+.cert-item:hover {
+    transform: translateX(8px);
+    border-color: #A855F7;
+    box-shadow: 0 12px 35px rgba(99,102,241,0.18);
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .cert-gallery {
+        padding-left: 35px;
+        gap: 22px;
+    }
+
+    .cert-gallery::before {
+        left: 8px;
+    }
+
+    .cert-item {
+        padding: 20px;
+    }
+
+    .cert-item::before {
+        left: -34px;
+        width: 13px;
+        height: 13px;
+    }
+
+    .cert-item::after {
+        left: -21px;
+        width: 21px;
+    }
+}
+
+
+
+
+
+/* LARGE CERTIFICATE TIMELINE DOT */
+
+.cert-item::before {
+    content: "";
+    position: absolute;
+    left: -48px;
+    top: 28px;
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(135deg, #6366F1, #A855F7, #38BDF8);
+    border: 4px solid #080D1A;
+    border-radius: 50%;
+    box-shadow:
+        0 0 12px rgba(168, 85, 247, 0.8),
+        0 0 25px rgba(99, 102, 241, 0.4);
+    z-index: 3;
+}
+
+.cert-item::after {
+    content: "";
+    position: absolute;
+    left: -23px;
+    top: 39px;
+    width: 23px;
+    height: 3px;
+    background: #A855F7;
+}
+
+@media (max-width: 600px) {
+    .cert-item::before {
+        left: -39px;
+        width: 21px;
+        height: 21px;
+    }
+
+    .cert-item::after {
+        left: -18px;
+        width: 18px;
+    }
+}
+
+
+
+
+
+
+/* AUWALMB CERTIFICATE TIMELINE */
+
+.cert-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 950px;
+    margin: 50px auto;
+    padding-left: 55px;
+    position: relative;
+}
+
+/* Vertical Timeline Line */
+
+.cert-timeline::before {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(
+        180deg,
+        #6366F1,
+        #A855F7,
+        #38BDF8
+    );
+    border-radius: 10px;
+}
+
+
+/* Certificate Card */
+
+.cert-timeline .cert-item {
+    overflow: visible !important;
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+/* LARGE TIMELINE DOT */
+
+.cert-timeline .cert-dot {
+    position: absolute;
+    left: -53px;
+    top: 28px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: linear-gradient(
+        135deg,
+        #6366F1,
+        #A855F7,
+        #38BDF8
+    );
+    border: 4px solid #080D1A;
+    box-shadow:
+        0 0 0 4px rgba(168,85,247,.15),
+        0 0 18px rgba(168,85,247,.8);
+    z-index: 5;
+}
+
+
+
+
+/* Connector */
+
+.cert-timeline .cert-dot::after {
+    content: "";
+    position: absolute;
+    left: 21px;
+    top: 7px;
+    width: 24px;
+    height: 2px;
+    background: #A855F7;
+}
+
+/* MOBILE */
+
+@media(max-width:600px) {
+    .cert-timeline {
+        padding-left: 42px;
+        gap: 24px;
+    }
+
+    .cert-timeline::before {
+        left: 9px;
+    }
+
+    .cert-timeline .cert-dot {
+        left: -40px;
+        width: 22px;
+        height: 22px;
+    }
+
+    .cert-timeline .cert-dot::after {
+        width: 18px;
+    }
+}
+
+
+
+
+
+
+
+/* EXTRA LARGE TIMELINE DOTS */
+
+.cert-timeline .cert-dot {
+    width: 32px;
+    height: 32px;
+    left: -56px;
+    top: 25px;
+
+    background: linear-gradient(
+        135deg,
+        #6366F1,
+        #A855F7,
+        #38BDF8
+    );
+
+    border: 4px solid #080D1A;
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 0 5px rgba(168,85,247,.15),
+        0 0 20px rgba(168,85,247,.9);
+}
+
+@media(max-width:600px) {
+    .cert-timeline .cert-dot {
+        width: 28px;
+        height: 28px;
+        left: -44px;
+    }
+}
+
+
+
+
+
+/* FINAL LARGE TIMELINE DOT FIX */
+
+.cert-timeline .cert-item .cert-dot {
+    display: block !important;
+    position: absolute !important;
+
+    width: 32px !important;
+    height: 32px !important;
+
+    left: -56px !important;
+    top: 25px !important;
+
+    background: #A855F7 !important;
+    border: 4px solid #080D1A !important;
+    border-radius: 50% !important;
+
+    box-shadow: 0 0 0 5px rgba(168,85,247,.2),
+                0 0 25px rgba(168,85,247,.9) !important;
+
+    z-index: 99 !important;
+}
+
+@media(max-width:600px) {
+    .cert-timeline .cert-item .cert-dot {
+        width: 28px !important;
+        height: 28px !important;
+        left: -44px !important;
+    }
+}
+
+
+
+/* REMOVE DUPLICATE TIMELINE DOT */
+.cert-timeline .cert-item::before,
+.cert-timeline .cert-item::after {
+    content: none !important;
+    display: none !important;
+}
+
+/* KEEP ONLY ONE DOT */
+.cert-timeline .cert-item .cert-dot {
+    display: block !important;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<main class="cert-page">
+
+<a href="index.html" class="cert-back">
+← Back
+</a>
+
+<header class="cert-header">
+
+<h1>Professional Certificates</h1>
+
+<p>
+A collection of my professional certifications, technical training and continuous learning achievements in cybersecurity, artificial intelligence, networking and technology.
+</p>
+
+</header>
+
+<!-- CERTIFICATE FILTERS -->
+
+<div class="cert-filters">
+
+<button class="active" data-filter="all">All</button>
+<button data-filter="cybersecurity">Cybersecurity</button>
+<button data-filter="ai">Artificial Intelligence</button>
+<button data-filter="networking">Networking</button>
+<button data-filter="digital">Digital Skills</button>
+
+</div>
+
+<!-- CERTIFICATE GALLERY -->
+
+<section class="cert-gallery cert-timeline">
+
+<!-- NYSC CERTIFICATE -->
+
+<article class="cert-item" data-category="digital">
+
+
+
+<span class="cert-dot"></span>
+
+<div class="cert-icon">🎓</div>
+<span class="cert-year">2022–2023</span>
+<h3>National Youth Service Corps (NYSC)</h3>
+<p>NYSC Discharge Certificate</p>
+
+<div class="cert-actions">
+
+<a href="certificates/nysc-certificate.pdf"
+target="_blank"
+rel="noopener noreferrer"
+class="cert-btn">View Certificate</a>
+
+<a href="certificates/nysc-certificate.pdf"
+download
+class="cert-btn">Download PDF</a>
+
+</div>
+</article>
+
+<!-- 3MTT CYBERSECURITY -->
+
+<article class="cert-item" data-category="cybersecurity">
+
+
+<span class="cert-dot"></span>
+
+
+<div class="cert-icon">🛡️</div>
+<span class="cert-year">2024</span>
+<h3>3MTT Cybersecurity Training</h3>
+<p>Institution: KAD ICT Hub</p>
+
+<div class="cert-actions">
+
+<a href="certificates/3mtt-cybersecurity.pdf"
+target="_blank"
+rel="noopener noreferrer"
+class="cert-btn">View Certificate</a>
+
+<a href="certificates/3mtt-cybersecurity.pdf"
+download
+class="cert-btn">Download PDF</a>
+
+</div>
+</article>
+
+<!-- 3MTT GENERATIVE AI -->
+
+<article class="cert-item" data-category="ai">
+
+
+<span class="cert-dot"></span>
+
+
+<div class="cert-icon">🤖</div>
+<span class="cert-year">2025</span>
+<h3>3MTT Generative AI</h3>
+<p>Institution: 3MTT Programme</p>
+
+
+
+<span class="cert-dot"></span>
+
+
+<div class="cert-actions">
+
+<a href="certificates/3mtt-generative-ai.pdf"
+target="_blank"
+rel="noopener noreferrer"
+class="cert-btn">View Certificate</a>
+
+<a href="certificates/3mtt-generative-ai.pdf"
+download
+class="cert-btn">Download PDF</a>
+
+</div>
+</article>
+
+<!-- INTERNET SECURITY -->
+
+<article class="cert-item" data-category="cybersecurity">
+
+
+
+<span class="cert-dot"></span>
+
+<div class="cert-icon">🌐</div>
+<span class="cert-year">2026</span>
+<h3>Internet Security</h3>
+<p>Institution: Internet Society</p>
+
+
+
+<span class="cert-dot"></span>
+
+<div class="cert-actions">
+
+<a href="certificates/internet-society-security.pdf"
+target="_blank"
+rel="noopener noreferrer"
+class="cert-btn">View Certificate</a>
+
+<a href="certificates/internet-society-security.pdf"
+download
+class="cert-btn">Download PDF</a>
+
+</div>
+</article>
+
+<!-- DIGITAL FOR ALL CHALLENGE 2.0 -->
+
+<article class="cert-item" data-category="cybersecurity">
+
+
+<span class="cert-dot"></span>
+
+<div class="cert-icon">🔐</div>
+<span class="cert-year">2025</span>
+<h3>Digital for All Challenge 2.0</h3>
+<p>Training: Cybersecurity</p>
+
+
+<span class="cert-dot"></span>
+
+
+<div class="cert-actions">
+
+<a href="certificates/digital-for-all-cybersecurity.pdf"
+target="_blank"
+rel="noopener noreferrer"
+class="cert-btn">View Certificate</a>
+
+<a href="certificates/digital-for-all-cybersecurity.pdf"
+download
+class="cert-btn">Download PDF</a>
+
+</div>
+</article>
+
+<!-- FIBER OPTICS -->
+
+
+
+
+<article class="cert-item" data-category="networking">
+
+
+<span class="cert-dot"></span>
+
+<div class="cert-icon">🔌</div>
+<span class="cert-year">2026</span>
+<h3>Fiber Optics Fundamentals</h3>
+<p>Institution: Sigma Technical Academy</p>
+
+<div class="cert-actions">
+
+<a href="certificates/sigma-fiber-optics.pdf"
+target="_blank"
+rel="noopener noreferrer"
+class="cert-btn">View Certificate</a>
+
+<a href="certificates/sigma-fiber-optics.pdf"
+download
+class="cert-btn">Download PDF</a>
+
+</div>
+</article>
+
+<!-- DATA CENTER -->
+
+<article class="cert-item" data-category="networking">
+
+
+<span class="cert-dot"></span>
+
+<div class="cert-icon">🖥️</div>
+<span class="cert-year">2026</span>
+<h3>Data Center Fundamentals</h3>
+<p>Institution: Sigma Technical Academy</p>
+
+<div class="cert-actions">
+
+<a href="certificates/sigma-data-center.pdf"
+target="_blank"
+rel="noopener noreferrer"
+class="cert-btn">View Certificate</a>
+
+<a href="certificates/sigma-data-center.pdf"
+download
+class="cert-btn">Download PDF</a>
+
+</div>
+</article>
+
+<!-- NIYA CCTV INSTALLATION -->
+
+<article class="cert-item" data-category="digital">
+
+
+<span class="cert-dot"></span>
+
+
+<div class="cert-icon">📹</div>
+<span class="cert-year">2026</span>
+<h3>CCTV Installation and Maintenance</h3>
+<p>Institution: NIYA Academy</p>
+
+<div class="cert-actions">
+
+<a href="certificates/niya-cctv-installation.pdf"
+target="_blank"
+rel="noopener noreferrer"
+class="cert-btn">View Certificate</a>
+
+<a href="certificates/niya-cctv-installation.pdf"
+download
+class="cert-btn">Download PDF</a>
+
+</div>
+</article>
+
+<!-- NIYA COMPUTER REPAIRS -->
+
+<article class="cert-item" data-category="digital">
+
+
+
+<span class="cert-dot"></span>
+
+
+<div class="cert-icon">💻</div>
+<span class="cert-year">2026</span>
+<h3>Beginner's Guide to Computer Repairs</h3>
+<p>Institution: NIYA Academy</p>
+
+<div class="cert-actions">
+
+<a href="certificates/niya-computer-repairs.pdf"
+target="_blank"
+rel="noopener noreferrer"
+class="cert-btn">View Certificate</a>
+
+<a href="certificates/niya-computer-repairs.pdf"
+download
+class="cert-btn">Download PDF</a>
+
+</div>
+</article>
+
+<!-- NIYA PHONE SOFTWARE -->
+
+<article class="cert-item" data-category="digital">
+
+
+<span class="cert-dot"></span>
+
+
+<div class="cert-icon">📱</div>
+<span class="cert-year">2026</span>
+<h3>Phone Software: Hacks and Configurations</h3>
+<p>Institution: NIYA Academy</p>
+
+<div class="cert-actions">
+
+<a href="certificates/niya-phone-software.pdf"
+target="_blank"
+rel="noopener noreferrer"
+class="cert-btn">View Certificate</a>
+
+<a href="certificates/niya-phone-software.pdf"
+download
+class="cert-btn">Download PDF</a>
+
+</div>
+</article>
+
+<!-- NIYA NO-CODE MOBILE APP -->
+
+<article class="cert-item" data-category="digital">
+
+
+
+<span class="cert-dot"></span>
+
+<div class="cert-icon">📲</div>
+<span class="cert-year">2026</span>
+<h3>No-Code Mobile App Building</h3>
+<p>Institution: NIYA Academy</p>
+
+<div class="cert-actions">
+
+<a href="certificates/niya-no-code-mobile-app.pdf"
+target="_blank"
+rel="noopener noreferrer"
+class="cert-btn">View Certificate</a>
+
+<a href="certificates/niya-no-code-mobile-app.pdf"
+download
+class="cert-btn">Download PDF</a>
+
+</div>
+</article>
+
+<!-- NIYA CUSTOMER ACQUISITION -->
+
+<article class="cert-item" data-category="digital">
+
+
+<span class="cert-dot"></span>
+
+<div class="cert-icon">📈</div>
+<span class="cert-year">2026</span>
+<h3>Fundamentals of Customer Acquisition</h3>
+<p>Institution: NIYA Academy</p>
+
+<div class="cert-actions">
+
+<a href="certificates/niya-customer-acquisition.pdf"
+target="_blank"
+rel="noopener noreferrer"
+class="cert-btn">View Certificate</a>
+
+<a href="certificates/niya-customer-acquisition.pdf"
+download
+class="cert-btn">Download PDF</a>
+
+</div>
+</article>
+
+<!-- NIYA CONFIDENT PRESENTATIONS -->
+
+<article class="cert-item" data-category="digital">
+
+
+<span class="cert-dot"></span>
+
+<div class="cert-icon">🎤</div>
+<span class="cert-year">2026</span>
+<h3>Mastering Confident Presentations</h3>
+<p>Institution: NIYA Academy</p>
+
+<div class="cert-actions">
+
+<a href="certificates/niya-confident-presentations.pdf"
+target="_blank"
+rel="noopener noreferrer"
+class="cert-btn">View Certificate</a>
+
+<a href="certificates/niya-confident-presentations.pdf"
+download
+class="cert-btn">Download PDF</a>
+
+</div>
+</article>
+
+<!-- DIGITAL TRAINING ACADEMY (DTA) -->
+
+<article class="cert-item" data-category="digital">
+
+
+<span class="cert-dot"></span>
+
+
+<div class="cert-icon">🎓</div>
+<span class="cert-year">2026</span>
+<h3>Digital Training Academy (DTA)</h3>
+<p>Professional Digital Skills Training</p>
+
+<div class="cert-actions">
+<span class="cert-coming">Certificate Coming Soon</span>
+</div>
+
+</article>
+
+<!-- ADAMAWA DIGITAL ACADEMY -->
+
+<article class="cert-item" data-category="cybersecurity">
+
+
+
+<span class="cert-dot"></span>
+
+<div class="cert-icon">🛡️</div>
+<span class="cert-year">2026</span>
+<h3>Adamawa Digital Academy</h3>
+<p>Cybersecurity Training Programme</p>
+
+<div class="cert-actions">
+<span class="cert-coming">Certificate Coming Soon</span>
+</div>
+
+</article>
+
+<!-- YOUTH & STUDENTS IN INNOVATION (YSI) -->
+
+<article class="cert-item" data-category="digital">
+
+
+<span class="cert-dot"></span>
+
+
+<div class="cert-icon">🚀</div>
+<span class="cert-year">2026</span>
+<h3>Youth & Students in Innovation (YSI)</h3>
+<p>Software Development, Web Technology and Artificial Intelligence</p>
+
+<div class="cert-actions">
+<span class="cert-coming">Certificate Coming Soon</span>
+</div>
+
+</article>
+
+<!-- DATHEON PYTHON INTERNSHIP -->
+
+<article class="cert-item" data-category="digital">
+
+
+<span class="cert-dot"></span>
+
+
+<div class="cert-icon">🐍</div>
+<span class="cert-year">2026</span>
+<h3>Datheon Python Internship</h3>
+<p>Professional Internship: Python Programming</p>
+
+<div class="cert-actions">
+<span class="cert-coming">Certificate Coming Soon</span>
+</div>
+</article>
+
+<!-- DATHEON FULL STACK WEB DEVELOPMENT -->
+
+<article class="cert-item" data-category="digital">
+
+
+<span class="cert-dot"></span>
+
+<div class="cert-icon">💻</div>
+<span class="cert-year">2026</span>
+<h3>Datheon Full Stack Web Development</h3>
+<p>Professional Training: Full Stack Development</p>
+
+<div class="cert-actions">
+<span class="cert-coming">Certificate Coming Soon</span>
+</div>
+</article>
+
+<!-- DATHEON VIBE CODING MASTERY -->
+
+<article class="cert-item" data-category="ai">
+
+<span class="cert-dot"></span>
+
+
+<div class="cert-icon">🤖</div>
+<span class="cert-year">2026</span>
+<h3>Datheon Vibe Coding Mastery</h3>
+<p>Training: AI-Assisted Software Development</p>
+
+<div class="cert-actions">
+<span class="cert-coming">Certificate Coming Soon</span>
+</div>
+</article>
+
+<!-- DATHEON CAPSTONE PROJECT -->
+
+<article class="cert-item" data-category="digital">
+
+<span class="cert-dot"></span>
+
+
+<div class="cert-icon">🚀</div>
+<span class="cert-year">2026</span>
+<h3>Datheon Capstone Project</h3>
+<p>Practical Software Development Project</p>
+
+<div class="cert-actions">
+<span class="cert-coming">Certificate Coming Soon</span>
+</div>
+</article>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer class="cert-footer">
+
+<p>© 2026 Auwal Mohammed Bello. All Rights Reserved.</p>
+<p>Cybersecurity & Software Engineering</p>
+
+</footer>
+
+<!-- CERTIFICATE FILTER SCRIPT -->
+
+<script>
+
+"use strict";
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const filterButtons = document.querySelectorAll(".cert-filters button");
+    const certificates = document.querySelectorAll(".cert-item");
+
+    filterButtons.forEach(button => {
+
+        button.addEventListener("click", () => {
+
+            filterButtons.forEach(btn => {
+                btn.classList.remove("active");
+            });
+
+            button.classList.add("active");
+
+            const filter = button.dataset.filter;
+
+            certificates.forEach(cert => {
+
+                const category = cert.dataset.category;
+
+                cert.classList.toggle(
+                    "hidden",
+                    filter !== "all" && category !== filter
+                );
+
+            });
+
+        });
+
+    });
+
+});
+
+</script>
+
+</body>
+</html>
